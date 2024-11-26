@@ -489,4 +489,8 @@
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
   }
+  
+}
+.banner__media::after{
+   background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%) !important;
 }
